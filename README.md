@@ -19,12 +19,12 @@ In symptom_classifier.py, two machine learning models are trained, a Logistic Re
 4. To view model diagnostics, go to the same directory and use `streamlit run symptom_classifier.py`.
 
 ## Other Files
-`artifacts`: A folder that stores the confusion matrix visualization from the model.
-`data`: A folder containing the training and testing datasets.
-`etl_to_sqlite`: A python script that loads, cleans, and exports the original dataset to sqlite.
-`label_encoder.joblib`: File that does one-hot encoding in the symptom-disease dataset.
-`pyvenv.cfg`: A config file detailing how virtual environment is setup.
-`symptom_model.joblib`: A file that stores the selected model after running the symptom_classifier.py script.
+- `artifacts`: A folder that stores the confusion matrix visualization from the model.
+- `data`: A folder containing the training and testing datasets.
+- `etl_to_sqlite`: A python script that loads, cleans, and exports the original dataset to sqlite.
+- `label_encoder.joblib`: File that does one-hot encoding in the symptom-disease dataset.
+- `pyvenv.cfg`: A config file detailing how virtual environment is setup.
+- `symptom_model.joblib`: A file that stores the selected model after running the symptom_classifier.py script.
 
 ## Requirements
 - Python 3.7+
